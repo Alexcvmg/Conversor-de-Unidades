@@ -3,10 +3,13 @@ package br.com.conversor;
 import br.com.conversor.util.Distancia;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ConversorDistanciaTest {
         Distancia distancia = new Distancia();
+
     @Test
     @DisplayName("Converte Km para metro")
     public void converteKmParaMetro(){
